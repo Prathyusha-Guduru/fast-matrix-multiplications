@@ -5,10 +5,10 @@ A repo containing different strategies and tools to compute fast matrix-matrix a
 
 Possible methods we will explore: 
 
-1. Strassen
+1. [Strassen](https://towardsdatascience.com/understanding-deepmind-matrix-multiplication-c8dc49687ce7/)
 2. Open-BLAS
-3. Multithreading with BLAS in rust
-4. Syncthreads in rust
-5. Numba in python
-6. Pytorch tensor's mat_mul
-7. CUDA programming
+3.[ Multithreading with SIMD in rust](https://sarah-ek.veganb.tw/blog/nano-gemm/)
+4. [Syncthreads](https://sarah-ek.veganb.tw/blog/mt-async/) in rust
+5. [Numba](https://numba.pydata.org/) in python
+6. Pytorch [tensor's mat_mul](https://pytorch.org/docs/main/notes/cuda.html)
+7. [CUDA programming](https://developer.nvidia.com/cuda-python)
